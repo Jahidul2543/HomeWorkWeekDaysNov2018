@@ -5,7 +5,7 @@ Homework Weekdays Selenium Nov2018
   <li>1. Make sure there is a Branch in your name</li>
   <li>2. One time action <br>
       Go to the terminal<br>
-      git clone --single-branch -b https://github.com/Jahidul2543/HomeWorkWeekDaysNov2018.git <br>
+      git clone --single-branch -b branchName https://github.com/Jahidul2543/HomeWorkWeekDaysNov2018.git <br>
       You should see the repo cloned in your machine
   </li>
   
