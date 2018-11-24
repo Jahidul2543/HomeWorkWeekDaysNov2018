@@ -9,7 +9,7 @@ Homework Weekdays Selenium Nov2018
       You should see the repo cloned in your machine
   </li>
   
-  <li> 3. Go to intellij IDE create new project for homework inside this dractory </br>
+  <li> 3. Go to intellij IDE create new project for homework inside this diractory </br>
           Work on the code once development is done for the day push the changes in the github by bellow commands
   </li>
   
