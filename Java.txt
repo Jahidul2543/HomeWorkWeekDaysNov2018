@@ -1,0 +1,15 @@
+Static member can acceses before any objects of its class are created.
+Void member is returning nothing.
+If you created function and your function doesn't return anything use Void.
+Public method avaible for everyone outside of class.
+Private methon is not avaible outside of class.
+Main method is main methond that execute the code! without main no execution.
+SuperClass&SubClasses
+
+In Super Class we can specify the design how we going to build the Objects
+We can create constuctor and Methods like Setter and Getter.
+In Sub Class we can EXTEND CLASS SUPER AND IN SUB CLASSES WE CAN Change the
+value of Getter method to spesific object. IF we created method Getter in
+SuperClass Eat() or Speak() that print values from constuctor System.out.println("hello my" +name +age)
+We can change this in Subclass for whatever we want ("Buy"+name+age);
+Demo is executer we can keep Public static void main(Str[] args) to execute whatever we want.
