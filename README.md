@@ -6,8 +6,12 @@ Homework Weekdays Selenium Nov2018
   <li>2. One time action <br>
       Go to the terminal<br>
       git clone --single-branch -b branchName https://github.com/Jahidul2543/HomeWorkWeekDaysNov2018.git <br>
-      You should see the repo cloned in your machine
+      You should see the repo cloned in your machine <br>
+       To know your branch run bellow command, You should see your cloned branch name<br>
+    git branch 
+       
   </li>
+  
   
   <li> 3. Go to intellij IDE create new project for homework inside this diractory </br>
           Work on the code once development is done for the day push the changes in the github by bellow commands
