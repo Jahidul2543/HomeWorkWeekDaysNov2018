@@ -7,9 +7,11 @@ public class Subaru {
     int d=a-b;
 
     public void add() {
+
         System.out.println(c);
     }
     public void subtract(){
+
         System.out.println("my result" + d);
     }
     public static void main(String[]args){
@@ -21,6 +23,5 @@ public class Subaru {
         suv.subtract();
 
     }
-
 
 }
