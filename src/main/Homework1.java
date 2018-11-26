@@ -1,6 +1,6 @@
 package main;
 
-import main.Mug;
+import sun.applet.Main;
 
 public class Homework1 {
     public static void main(String[] args) {
@@ -138,6 +138,140 @@ public class Homework1 {
         zune.setVolume(6);
         itouch.setScreenBrightness(3);
         iPodMini.turnOn();
+
+        //11. Train class objects
+        Train nTrain = new Train();
+        Train gTrain = new Train();
+        Train train7 = new Train();
+        Train train1 = new Train();
+        Train train2 = new Train();
+
+        nTrain.addPassengers(30);
+        gTrain.brake(0);
+        train7.changeGear(4);
+        train1.unloadCargo(100);
+        train2.increaseSpeed(50);
+
+        //12. Bus class objects
+        Bus greyhound = new Bus();
+        Bus peterPan = new Bus();
+        Bus megaBus = new Bus();
+        Bus ourBus = new Bus();
+        Bus trailways = new Bus();
+
+        greyhound.addPassengers(50);
+        peterPan.brake(0);
+        megaBus.changeGear(6);
+        ourBus.unloadCargo(300);
+        trailways.increaseSpeed(20);
+
+        //13. Cab class objects
+        Cab uber = new Cab();
+        Cab lyft = new Cab();
+        Cab yellowCab = new Cab();
+        Cab blackTaxi = new Cab();
+        Cab curb = new Cab();
+
+        uber.addPassengers(2);
+        lyft.brake(0);
+        yellowCab.changeGear(3);
+        blackTaxi.unloadCargo(20);
+        curb.increaseSpeed(10);
+
+        //14. Sedan class objects
+        Sedan hondaAccord = new Sedan();
+        Sedan toyotaCamry = new Sedan();
+        Sedan nissanAltima = new Sedan();
+        Sedan hyundaiElantra = new Sedan();
+        Sedan mercedesC300 = new Sedan();
+
+        hondaAccord.addPassengers(3);
+        toyotaCamry.brake(0);
+        nissanAltima.changeGear(2);
+        hyundaiElantra.unloadCargo(2);
+        mercedesC300.increaseSpeed(5);
+
+        //15. SUV class objects
+        SUV hondaPilot = new SUV();
+        SUV toyotaHighlander = new SUV();
+        SUV nissanMurrano = new SUV();
+        SUV hyundaiTucson= new SUV();
+        SUV mercedesGlk = new SUV();
+
+        hondaPilot.addPassengers(5);
+        toyotaHighlander.brake(0);
+        nissanMurrano.changeGear(2);
+        hyundaiTucson.unloadCargo(3);
+        mercedesGlk.increaseSpeed(15);
+
+        //16. Cookie class objects
+        Cookie chocolateChipCookie = new Cookie();
+        Cookie oatmealRaisinCookie = new Cookie();
+        Cookie shortbreadCookie = new Cookie();
+        Cookie mmCookie = new Cookie();
+        Cookie macadamiaCookie = new Cookie();
+
+        chocolateChipCookie.addExtraButter();
+        oatmealRaisinCookie.addSugar();
+        shortbreadCookie.eat(9);
+        mmCookie.microwave();
+        macadamiaCookie.bake();
+
+        //17. Cake class objects
+        Cake germanChocolateCake = new Cake();
+        Cake blackForestCake = new Cake();
+        Cake doubleChocolateCake = new Cake();
+        Cake tresLecheCake = new Cake();
+        Cake caramelCake = new Cake();
+
+        germanChocolateCake.addExtraButter();
+        blackForestCake.addSugar();
+        doubleChocolateCake.microwave();
+        tresLecheCake.eat(2);
+        caramelCake.bake();
+
+        //18. Chips class objects
+        Chips sourCreamOnionChips = new Chips();
+        Chips cheddarChips = new Chips();
+        Chips jalapenoChips = new Chips();
+        Chips rufflesChips = new Chips();
+        Chips doritosChips = new Chips();
+
+        sourCreamOnionChips.addExtraButter();
+        jalapenoChips.addSalt();
+        cheddarChips.bake();
+        rufflesChips.crush();
+        doritosChips.eat(5);
+
+        //19. Soups class objects
+        Soups broccoliCheddarSoup = new Soups();
+        Soups creamOfMushroomSoup = new Soups();
+        Soups wildRiceSoup = new Soups();
+        Soups tomYumSoup = new Soups();
+        Soups lentilSoup = new Soups();
+
+        broccoliCheddarSoup.addExtraButter();
+        creamOfMushroomSoup.addSalt();
+        wildRiceSoup.cook();
+        tomYumSoup.eat(50);
+        lentilSoup.microwave();
+
+        //20. MainDish class objects
+        MainDish chickenParmesan = new MainDish();
+        MainDish chickenPiccata = new MainDish();
+        MainDish vealCutlet = new MainDish();
+        MainDish ribeyeSteak = new MainDish();
+        MainDish beefBarleyStew = new MainDish();
+
+        chickenParmesan.addExtraButter();
+        vealCutlet.cook();
+        ribeyeSteak.addExtraButter();
+        chickenPiccata.microwave();
+        beefBarleyStew.eat(50);
+
+
+
+
 
 
 

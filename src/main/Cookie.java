@@ -1,6 +1,6 @@
 package main;
 
-public class BakedGoods {
+public class Cookie {
     int number = 10;
     boolean unbaked = false;
     String texture = "crunchy";
@@ -9,26 +9,26 @@ public class BakedGoods {
 
     public void eat(int newValue) {
         number = newValue;
-        System.out.println("This decreases the number of baked goods");
+        System.out.println("This decreases the number of cookies");
     }
 
     public void bake() {
         unbaked = false;
-        System.out.println("This bakes the baked goods");
+        System.out.println("This bakes the cookie");
     }
 
     public void addExtraButter() {
         texture = "chewy";
-        System.out.println("This changes the texture of the baked goods");
+        System.out.println("This changes the texture of the cookie");
     }
 
     public void addSugar() {
         taste = "delicious";
-        System.out.println("This improves the taste of the baked goods ");
+        System.out.println("This improves the taste of the cookie");
     }
 
     public void microwave() {
         warm = true;
-        System.out.println("This warms up the baked goods");
+        System.out.println("This warms up the cookie");
     }
 }
