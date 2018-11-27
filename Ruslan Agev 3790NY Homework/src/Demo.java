@@ -150,13 +150,199 @@ public class Demo {
         Shrilatsi Azizam5 = new Shrilatsi("Azizam5","jarihu",50);
 
 //        ALiens
-        ALiens Marsik1 = new ALiens("Marski1","Jupiterev",50);
-        ALiens Marsik2= new ALiens("Marski2","Jupiterev",50);
-        ALiens Marsik3 = new ALiens("Marski3","Jupiterev",50);
-        ALiens Marsik4 = new ALiens("Marski4","Jupiterev",50);
-        ALiens Marsik5 = new ALiens("Marski5","Jupiterev",50);
 
 
+
+        for (int i = 0;i<=5;i++){
+            ALiens Marsik1 = new ALiens("Marski1","Jupiterev",50);
+        }
+
+
+//        Afrikansi
+        for (int i = 0;i<=5;i++){
+            Afrikansi Marsik1 = new Afrikansi("Kojo","Saturin",25);
+        }
+
+//        Nemtsi
+        for (int i = 0;i<=5;i++){
+            Afrikansi Radik = new Afrikansi("Radik","Gavrilove",56);
+        }
+//        Amerikantsi
+        for (int i = 0;i<=5;i++){
+            Amerikantsi Robert = new Amerikantsi("Robert","Deiel",41);
+        }
+//        Greeki
+        for (int i = 0;i<=5;i++){
+            Greeki Ziaki = new Greeki("Ziaki","Lakirov",61);
+        }
+        //        Romanian
+        for (int i = 0;i<=5;i++){
+            Romanian Mariam = new Romanian("Mariam","sosonova",21);
+        }
+        //        Polish
+        for (int i = 0;i<=5;i++){
+            Polish peter = new Polish("peter","polishev",21);
+        }
+        //        Armenian
+        for (int i = 0;i<=5;i++){
+            Armenian Ashot = new Armenian("Ashot","grigraryanov",41);
+        }
+        //        Italian
+        for (int i = 0;i<=5;i++){
+            Italian Franchesko = new Italian("Franchesko","Italikanov",45);
+        }
+        //        Spain
+        for (int i = 0;i<=5;i++){
+            Spain Marchekoso = new Spain("Marchekoso","Alexandrov",35);
+        }
+        //        Mexico
+        for (int i = 0;i<=5;i++){
+            Mexico Alvarez  = new Mexico("Alvarez","boxerov",35);
+        }
+
+        //        Guatemala
+        for (int i = 0;i<=5;i++){
+            Guatemala Roberto  = new Guatemala("Roberto","Jk",68);
+        }
+        //        Tijuana
+        for (int i = 0;i<=5;i++){
+            Tijuana Lacherski  = new Tijuana("Lacherski","pk",38);
+        }
+        //        Dominican
+        for (int i = 0;i<=5;i++){
+
+            Dominican Daniela  = new Dominican("Daniela","hunttrk",28);
+        }
+        //        Nigerian
+        for (int i = 0;i<=5;i++){
+
+            Nigerian Jakur  = new Nigerian("Jakur","fafa",28);
+        }
+
+
+//                         Egyptian
+
+        for (int i = 0;i<=5;i++){
+
+            Egyptian Abdul  = new Egyptian("Abdul","wwea",18);
+        }
+//                         Tai
+
+        for (int i = 0;i<=5;i++){
+
+            Tai Abdul  = new Tai("Abdul","wwea",18);
+        }
+
+//                         Taiwan
+
+        for (int i = 0;i<=5;i++){
+
+            Taiwan Jesica  = new Taiwan("Jesica","taiwanisova",118);
+        }
+        //                         Malaysian
+
+        for (int i = 0;i<=5;i++){
+
+            Malaysian Mahid  = new Malaysian("Mahid","Akabrov",29);
+        }
+        //                         Indonesian
+
+        for (int i = 0;i<=5;i++){
+
+            Indonesian Sabrina  = new Indonesian("Sabrina","Akilova",39);
+        }
+
+        //                         Philipino
+
+        for (int i = 0;i<=5;i++){
+
+            Philipino Kayla  = new Philipino("Kayla","ushijima",24);
+        }
+        //                         Chinese
+
+        for (int i = 0;i<=5;i++){
+
+            Chinese Lipen  = new Chinese("Pin","Li",242);
+        }
+
+        //                         Korean
+
+        for (int i = 0;i<=5;i++){
+
+            Korean KimPavlik  = new Korean("Kim","Pavlik",42);
+        }
+        //                         Japanese
+
+              for (int i = 0;i<=5;i++){
+
+            Japanese JuRay  = new Japanese("Ju","Ray",22);
+        }
+        //                         Iranian
+
+        for (int i = 0;i<=5;i++){
+
+            Iranian Soxa  = new Iranian("Soxa","Uktamov",27);
+        }
+
+        //                         CraminanTatars
+
+        for (int i = 0;i<=5;i++){
+
+            CraminanTatars Munibe  = new CraminanTatars("Munibe","Abkadirova",85);
+        }
+        //                         Kazanskie
+
+        for (int i = 0;i<=5;i++){
+
+            Kazanskie Farid  = new Kazanskie("Farid","Imgagimov",25);
+        }
+        //                         Ukrainian
+
+        for (int i = 0;i<=5;i++){
+
+            Ukrainian Michail  = new Ukrainian("Michail","Lebedev",41);
+        }
+
+        //                         Australian
+
+        for (int i = 0;i<=5;i++){
+
+            Australian Ardnold  = new Australian("Arnold","Shwarvskegoer",71);
+        }
+
+        //                         Australian
+
+        for (int i = 0;i<=5;i++){
+
+            Australian Ardnold  = new Australian("Arnold","Shwarvskegoer",71);
+        }
+
+        //                         Tibetian
+
+        for (int i = 0;i<=5;i++){
+
+            Tibetian Sonam  = new Tibetian("Sonam","Sakirova",31);
+        }
+
+        //                         Nepali
+
+        for (int i = 0;i<=5;i++){
+
+            Nepali Sonam  = new Nepali("Tenzin","Sonam",34);
+        }
+        //                         Avganistani
+
+        for (int i = 0;i<=5;i++){
+
+            Avganistani Abdil  = new Avganistani("Abdil","Murberk",35);
+        }
+
+        //                         Israeli
+
+        for (int i = 0;i<=5;i++){
+
+            Israeli RabinovRustem  = new Israeli("Rabinov","Rustem",55);
+        }
 
 
 

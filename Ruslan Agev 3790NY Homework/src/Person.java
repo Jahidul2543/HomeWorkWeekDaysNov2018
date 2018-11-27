@@ -9,7 +9,7 @@ public class Person {
         this.age = age;
     }
 
-    String objectMessage = "ypoyyy" ;
+    String objectMessage = "" ;
     public  Person() {
         super();
 
