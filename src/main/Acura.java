@@ -5,7 +5,7 @@ public class Acura {
     public static int totalCapacity;
 
 
-    public static void setTotalCapacity(int totalCapacity) {
+    public  void setTotalCapacity(int totalCapacity) {
         Acura.totalCapacity = totalCapacity;
 
     }
@@ -15,14 +15,14 @@ public class Acura {
         return totalCapacity;
     }
 
-    public static void carIdentity(){
+    public static void carIdentity() {
         System.out.println("This is what our cars have");
     }
     public static void main(String[] args) {
 
         Acura tlx = new Acura();
-        tlx.setTotalCapacity(5);
-        System.out.println("My TLX has" + tlx.getTotalCapacity() + "seats");
+        tlx.setTotalCapacity(6);
+        System.out.println("My TLX has " + tlx.getTotalCapacity() + " seats");
 
 
         Acura sfx = new Acura();

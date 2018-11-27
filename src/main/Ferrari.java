@@ -7,14 +7,14 @@ public class Ferrari {
 
         if (test == 9) {
             System.out.println("This is easy");
-        }
-        else {
+        } else {
             System.out.println("this is hard");
         }
 
-        if (test != 9) ;
-        System.out.println("This is not hard");
+        if (test != 9) {
+            System.out.println("This is not hard");
 
 
+        }
     }
 }
