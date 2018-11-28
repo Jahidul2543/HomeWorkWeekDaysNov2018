@@ -1,0 +1,2 @@
+public class TravelPhotography {
+}
