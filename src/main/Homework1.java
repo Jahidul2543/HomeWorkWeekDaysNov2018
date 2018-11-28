@@ -268,17 +268,5 @@ public class Homework1 {
         ribeyeSteak.addExtraButter();
         chickenPiccata.microwave();
         beefBarleyStew.eat(50);
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
