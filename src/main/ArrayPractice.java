@@ -12,6 +12,7 @@ public class ArrayPractice {
         anArray[3] = 7;
         anArray[0] = 8;
 
+
         System.out.println("Element at index 1: " + anArray [1]);
         System.out.println("Element at index 2: " + anArray [2]);
         System.out.println("Element at index 3: " + anArray [3]);

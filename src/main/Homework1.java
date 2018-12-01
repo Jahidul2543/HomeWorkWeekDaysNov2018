@@ -11,6 +11,8 @@ public class Homework1 {
         Mug teaMug = new Mug();
         Mug cornellMug = new Mug();
         Mug workMug = new Mug();
+        Mug newMug = new Mug();
+
 
         beerMug.fillMax();
         coffeeMug.fill(50);
@@ -21,6 +23,8 @@ public class Homework1 {
         cornellMug.drink(20);
         workMug.fillMax();
         workMug.chug();
+        beerMug.chug();
+        newMug.chug();
 
         // 2. Phone class objects
         Phone iPhone8 = new Phone();
