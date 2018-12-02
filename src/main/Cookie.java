@@ -8,8 +8,8 @@ public class Cookie {
     String taste = "delicious";
 
     public void eat(int newValue) {
-        number = newValue;
-        System.out.println("This decreases the number of cookies");
+        number = number - newValue;
+        System.out.println("This is how many cookies remain after eating: " + number);
     }
 
     public void bake() {
@@ -24,11 +24,12 @@ public class Cookie {
 
     public void addSugar() {
         taste = "delicious";
-        System.out.println("This improves the taste of the cookie");
+        System.out.println("Adding sugar makes it " + taste);
     }
 
     public void microwave() {
         warm = true;
         System.out.println("This warms up the cookie");
     }
+
 }

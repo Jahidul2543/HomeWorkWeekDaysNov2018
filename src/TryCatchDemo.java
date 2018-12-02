@@ -1,5 +1,3 @@
-package main;
-
 public class TryCatchDemo {
     public static void main(String[] args) {
         int x = 2;
