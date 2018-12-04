@@ -45,7 +45,9 @@ public class StringMethods {
         System.out.println(st1.equals(st3));
         System.out.println(st1.equals(st4));
 
-     // String
+     // String ToLowerCase example
+
+
 
 
     }
