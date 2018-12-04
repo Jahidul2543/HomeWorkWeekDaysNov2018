@@ -1,4 +1,4 @@
-package main;
+package HomeWorkWeekDaysNov2018;
 
 public class Grade {
 
