@@ -4,7 +4,7 @@ public class MathOperators {
 
     int x= 10;
     int y=20;
-    int z=(x+y);
+
 
     public void multiplication(){
 
@@ -13,7 +13,7 @@ public class MathOperators {
     }
 
     public void addition(){
-        System.out.println(z);
+        System.out.println(x+y);
 
     }
 
