@@ -90,6 +90,8 @@ public class ArrayListPractice {
         for (int j = 20; j>=10; j--){
             obj1.numnber1.add(j);
         }
+        //  made some changes
+
 
         System.out.println(obj1.numnber1);
         // sorting in int ArrayList
