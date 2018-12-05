@@ -17,8 +17,8 @@ public class StringMethods {
         System.out.println(s.substring(1));
 
         //4. Returns the substring from 2 to 4-1 index.
-        s.substring(2,4);
-        System.out.println(s.substring(2,4));
+        s.substring(2, 4);
+        System.out.println(s.substring(2, 4));
 
         //5. Concatenates one string to the end of another string.
         String s1 = "Second";
@@ -30,8 +30,8 @@ public class StringMethods {
         System.out.println(s.indexOf("Homework"));
 
         //7. Returns the index of 'o' the first time it appears starting at index 4.
-        s.indexOf('o',4);
-        System.out.println(s.indexOf('o',4));
+        s.indexOf('o', 4);
+        System.out.println(s.indexOf('o', 4));
 
         //8. Returns the index of the last time 'o' appears.
         s.lastIndexOf('o');
@@ -71,13 +71,13 @@ public class StringMethods {
 
         //16. Returns new string by replacing all occurrences of oldChar with newChar.
         String newString = "fun homework";
-        String newString2 = newString.replace('f','g');
+        String newString2 = newString.replace('f', 'g');
         System.out.println(newString2);
 
         //17. Copies characters from the string "Second Homework" into the destination character array called
         // newCharArray.
-        char [] newCharArray = new char[10];
-        s.getChars(1,5,newCharArray,1 );
+        char[] newCharArray = new char[10];
+        s.getChars(1, 5, newCharArray, 1);
         System.out.println(newCharArray);
 
         //18. Returns the unicode value of index 1 which is 'e'.
@@ -86,17 +86,17 @@ public class StringMethods {
 
         //19.
         String str = "She sells sea shells by the sea shore";
-        System.out.println("String str starts with quick: "+str.startsWith("She"));
-        System.out.println("String str starts with sells: "+str.startsWith("sells"));
+        System.out.println("String str starts with quick: " + str.startsWith("She"));
+        System.out.println("String str starts with sells: " + str.startsWith("sells"));
 
         //20.
-        System.out.println("substring of str (starting from 4th index) has sells prefix: "+str.startsWith("sells",4));
+        System.out.println("substring of str (starting from 4th index) has sells prefix: " + str.startsWith("sells", 4));
 
         //21.
-        System.out.println("String str ends with shore: "+str.endsWith("shore"));
+        System.out.println("String str ends with shore: " + str.endsWith("shore"));
 
         //22.
-        System.out.println(str.subSequence(1,8));
+        System.out.println(str.subSequence(1, 8));
 
         //23.
         boolean bol = true;
@@ -122,7 +122,7 @@ public class StringMethods {
         System.out.println(notEmpty.isEmpty());
 
         //27.
-        char[] strn1 = {'H','e','l','l','o'};
+        char[] strn1 = {'H', 'e', 'l', 'l', 'o'};
         String strn2 = "";
         strn2 = strn2.copyValueOf(strn1);
         System.out.println(strn2);
@@ -141,20 +141,8 @@ public class StringMethods {
 
         //30.
         String b = "Candy";
-        String c = b.replace("Candy","give");
+        String c = b.replace("Candy", "give");
         System.out.println(c);
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
