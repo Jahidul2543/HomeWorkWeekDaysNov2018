@@ -3,7 +3,7 @@ package HomeWorkWeekDaysNov2018;
 import java.io.*;
 public class Deserilization {
 
-    public static void main(String[] args)throws ClassNotFoundException {
+    public static void main(String[] args)throws ClassNotFoundException,IOException {
 
         LearningSerialization obj2 = null;
         try{
@@ -12,9 +12,6 @@ public class Deserilization {
             obj2= (LearningSerialization) in.readObject();
             in.close();
             fileIn.close();
-        }
-        catch (IOException e){
-            e.printStackTrace();
         }
         finally {
             System.out.println(obj2.age);
