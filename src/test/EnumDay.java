@@ -24,7 +24,7 @@ public class EnumDay {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[]args) {
         EnumDay objectofEnumday = new EnumDay(Day.MON);
         objectofEnumday.howWillBeTheDay();
         for (Day d : Day.values()) {

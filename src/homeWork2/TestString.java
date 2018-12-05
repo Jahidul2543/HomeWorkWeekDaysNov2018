@@ -24,8 +24,9 @@ public class TestString {
         System.out.println(s.codePointCount(4,15));
 
 //6.
-        /*char [] charArray =new char[10];
-        System.out.println(s.getChars(1,5,charArray,1));*/
+        char [] charArray =new char[10];
+        s.getChars(1,5,charArray ,1);
+        System.out.println(charArray);
 
 //7 getBytes metohd
         System.out.println(s.getBytes());
