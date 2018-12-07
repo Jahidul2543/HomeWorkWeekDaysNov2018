@@ -1,12 +1,9 @@
 <component name="libraryTable">
-  <library name="HomeWorkWeekNov20181">
+  <library name="mysql-connector-java-8.0.12">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$" />
       <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.12.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/src" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
