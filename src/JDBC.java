@@ -23,6 +23,7 @@ static private String URL = "jdbc:mysql://localhost:3306/testdb?useSSL=false&all
             System.out.println(i+" Affected rows");
 
             statement.close();
+            connection.close();
 
 
 
