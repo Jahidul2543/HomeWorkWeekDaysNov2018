@@ -37,7 +37,7 @@ public class Acura {
         ntc.setTotalCapacity(3);
         System.out.println("My ntc has" + ntc.getTotalCapacity() + "seats");
 
-        Acura.carIdentity();
+       // Acura.carIdentity();
 
 
     }
