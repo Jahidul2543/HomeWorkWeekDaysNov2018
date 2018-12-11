@@ -20,6 +20,8 @@ public class IORetrieve {
                 System.out.print(((char)i));
             }
             System.out.println();
+            
+            fl.close();
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
