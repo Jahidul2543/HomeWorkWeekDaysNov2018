@@ -28,7 +28,7 @@ public class Jdbc {
 
 
         for (int i = 0; i <10 ; i++) {
-            PreparedStatement preparedStatement = connection.prepareStatement("Insert into cars (name) values ('?')");
+            PreparedStatement preparedStatement = connection.prepareStatement("Insert into cars (id,name) values ('hamad')");
 
             preparedStatement.executeUpdate();
 

@@ -17,13 +17,10 @@ public class Mysql {
             System.out.println("connected");
 
         Statement stmt=connection.createStatement();
-        for (int i=1; i<=10;i++);
+        ResultSet rst=stmt.executeQuery("select * from cars");
+        rst.next();
+        String name= rst.getString("name");
 
-        PreparedStatement prst=connection.prepareStatement("insert into cars (name) values ('?')");
-        prst.setInt(1,2);
-
-        stmt.close();
-        connection.close();
 
 
 
