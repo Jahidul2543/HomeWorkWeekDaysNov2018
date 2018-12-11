@@ -70,7 +70,8 @@ public class IfThenElse {
         int A = 1;
         int B = 2;
         int result;
-        boolean someCondition = true;
+        boolean someCondition = false;
         result = someCondition ? A : B;
+        System.out.println(result);
     }
 }
