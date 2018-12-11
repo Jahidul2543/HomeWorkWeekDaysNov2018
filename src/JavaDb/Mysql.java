@@ -1,3 +1,5 @@
+package JavaDb;
+
 import java.sql.*;
 
 public class Mysql {
